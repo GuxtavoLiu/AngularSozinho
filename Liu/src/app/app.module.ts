@@ -5,15 +5,20 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { GustavoComponent } from './gustavo/gustavo.component';
+import { RodapeComponent } from './rodape/rodape.component';
+import { SobreComponent } from './sobre/sobre.component';
+
+
+
 
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    GustavoComponent
+
+declarations: [
+    AppComponent, GustavoComponent, RodapeComponent, SobreComponent
   ],
   imports: [
-    BrowserModule,
+      BrowserModule,
     AppRoutingModule
   ],
   providers: [],
